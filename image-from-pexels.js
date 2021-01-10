@@ -123,7 +123,7 @@ const template =  `
     </div>
 `
 
-class PdImageFromPexels extends HTMLElement {
+class ImageFromPexels extends HTMLElement {
     constructor() {
         super();
 
@@ -216,4 +216,4 @@ class PdImageFromPexels extends HTMLElement {
     }
 }
 
-customElements.define("image-from-pexels", PdImageFromPexels);
+customElements.define("image-from-pexels", ImageFromPexels);
