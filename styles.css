@@ -1,0 +1,16 @@
+:root {
+    --color-primary: #333;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    height: 100vh; /* Fallback for browsers that do not support Custom Properties */
+    height: calc(var(--vh, 1vh) * 100);
+    background: var(--color-primary);
+    overflow: hidden;
+}
+
+pd-image-from-pexels {
+    width: 80vw;
+}
